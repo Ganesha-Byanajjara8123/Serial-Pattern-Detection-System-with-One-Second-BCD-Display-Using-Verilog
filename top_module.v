@@ -23,7 +23,7 @@ module top_module (
     wire tx_enable = ~i_tx_ena_n;   //Convert active-low enable to active-high
 
     // --------- TRANSMITTER-------------
-	// ----module tx_counter instantialtion----
+	// ----module tx_counter instantiation----
     tx_counter U_COUNTER (
         .i_clk(i_clk),
         .i_rst(i_rst),
