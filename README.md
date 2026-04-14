@@ -15,8 +15,8 @@ i)And every 0-9999(270f in decimal) one_sec_pulse is enabled.
 
 
 3)wavefrom about binary to  BCD convert  & BCD to 7-segment.
-Here hits are counted within one second and latched at the one-second pulse. The latched count is correctly converted to BCD and 7-segment outputs, confirming proper timing and display functionality sir.
-(I take wavefrom after one_sec_pulse become low, because we get stable outputs after every 1-second sir.)
+Here hits are counted within one second and latched at the one-second pulse. The latched count is correctly converted to BCD and 7-segment outputs, confirming proper timing and display functionality.
+(I take wavefrom after one_sec_pulse become low, because we get stable outputs after every 1-second.)
 
 
 <img width="975" height="483" alt="image" src="https://github.com/user-attachments/assets/be9cfff5-9e55-438a-bcda-e084713e2d15" />
