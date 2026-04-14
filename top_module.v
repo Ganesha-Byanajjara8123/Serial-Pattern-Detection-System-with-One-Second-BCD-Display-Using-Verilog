@@ -52,7 +52,7 @@ module top_module (
     assign o_hit = hit;                             // Connect internal hit to output
 
     // --------- 1-SECOND TIMER --------
-    reg [13:0] sec_cnt;
+	reg [13:0] sec_cnt;                             //a 13-bit or below bits can only count upto 8,191 but we need count upto 9999, so that's why we chose 14-bit 
     reg one_sec_pulse;
 
     always @(posedge i_clk) begin
