@@ -41,7 +41,7 @@ module top_module (
     );
 
     // --------- RECEIVER ----------
-	//----module  serial_detector instantialtion-----
+	//----module  serial_detector instantiation-----
     serial_detector U_DETECT (
         .i_clk(i_clk),
         .i_rst(i_rst),
